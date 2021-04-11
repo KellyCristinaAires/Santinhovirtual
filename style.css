@@ -1,16 +1,24 @@
 body {
-    min-height: 100vh;
-    display: flex;
+    min-height: 100;
+    display: flex; /*diminui o tamanho da imagem*/
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 100%; /*centraliza a imagem*/
+
+    
 }
 
-#foto {}
+#foto {
+
+    background-image: linear-gradient(150deg, green 40%, yellow 50%);
+    /*degrade de cores*/
+}
 
 #santinho {
     height: 600px;
@@ -23,14 +31,58 @@ img {
 h1 {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px  rgb(142, 172, 8);
+    background-color: gold;
+    height: 80px;
+    color:green; /*muda a cor do texto*/
+    
 }
 
-#cargo {}
+ #cargo{
+     text-align:center;
+     background-color: rgb(65, 102, 9);
+     font-size:35px; 
+     height: 50px;
+     align-items: center;
+     color:greenyellow;
+     
+     
 
-#slogan {}
 
-#final {}
+
+ }
+
+
+
+
+#slogan {
+    background-color:rgb(65, 102, 9);
+    font-size: 32px;
+    text-align: center; 
+    font-weight: 500;
+    color:greenyellow
+
+}
+ 
+#container{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 32px;
+    background-color: rgb(12, 58, 240);
+    height: 60px;
+    align-items: center;  /*para centralizar o conteúdo no bloco*/
+    color: honeydew;
+}
+
+
+ #final {}
+
 
 #numero {}
+
+    
+
 
 #partido {}
